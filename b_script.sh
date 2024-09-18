@@ -10,7 +10,7 @@ python3 ./mace/scripts/run_train.py \
   --hidden_irreps='32x0e' \
   --r_max=4.0 \
   --batch_size=20 \
-  --max_num_epochs=100 \
+  --max_num_epochs=50 \
   --ema \
   --ema_decay=0.99 \
   --amsgrad \
