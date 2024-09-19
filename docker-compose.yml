@@ -3,7 +3,7 @@ services:
   py_container:
     image: the_workdir
     volumes:
-      - mace_data-volume:/var/lib/mace_data
+      - ./mace_data-volume:/var/lib/mace_data
 volumes:
   mace_data-volume:
     external: true
